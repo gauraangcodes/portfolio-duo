@@ -1,0 +1,66 @@
+
+
+body{
+    background: linear-gradient( to right,#6495ed,#dc143c);
+}
+
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
+}
+
+.h1-div{
+   
+    display:flex;
+    justify-content: center;
+    cursor: help;
+}
+
+.parent{
+  
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+   
+}
+
+.raang{
+    border: 5px solid #6495ed;
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.zen{
+    border: 5px solid #dc143c;
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+      position: relative;
+      overflow: hidden;
+    
+}
+
+.kaka{
+    width:100%;
+    position: absolute;
+    cursor: pointer;
+    object-fit: cover;
+    
+}
+
+.inzhaghi{
+        width: 100%;
+       position: absolute;
+        object-fit: cover;
+        cursor: pointer;
+}
+
+

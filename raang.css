@@ -1,0 +1,374 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+   background: linear-gradient(#0f172a,#1e293b);
+}
+
+.nav-bar{
+    display: flex;
+       position: sticky;
+      top: 0;
+  z-index: 1000;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: red;
+    border-bottom-style:ridge;
+  
+}
+
+.inzhaghi{
+      width: 100%;
+       position: absolute;
+        object-fit: cover;
+        cursor: pointer;
+        
+}
+
+.raang{
+   
+    border: 5px solid #6495ed;
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.parent{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.abt-me{
+    width: 210px;
+    padding: 10px 24px;
+    color: #ef4444;
+    background-color: #0f172a;
+    font-family: arial;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lang{
+    padding: 10px 24px;
+    background-color: #0f172a;
+    color: #ef4444;
+    font-family: arial;
+   border-radius: 20px;
+   cursor: pointer;
+   text-decoration: none;
+   
+}
+
+
+
+.webs{
+    padding: 10px 24px;
+      background-color: #0f172a;
+      color: #ef4444;
+      font-family: arial;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.hobby{
+    padding: 10px 24px;
+   background-color: #0f172a;
+   color: #ef4444;
+    font-family: arial;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.occupation{
+    padding: 10px 24px;
+     background-color: #0f172a;
+     color: #ef4444;
+     font-family: arial;
+     cursor: pointer;
+     border-radius: 50px;
+     text-decoration: none;
+}
+
+.myname{
+    color: black;
+   background: linear-gradient(#dc143c);
+   border: 4px solid #6495ed;
+   border-radius: 15px;
+   padding: 5px 15px;
+   cursor: pointer;
+  
+}
+
+.go-back{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: #1e293b;
+    padding:10px 15px;
+    border-radius: 15px;
+    color: #ef4444;
+    cursor: pointer;
+}
+
+
+
+
+.abt-me:hover{
+    transform: translate(3px);
+    background-color: #0f172a;
+    box-shadow: #1e293b;
+    border: none;
+    border-style: solid;
+   
+}
+
+.lang:hover{
+        transform: translate(3px);
+    background-color: #0f172a;
+    box-shadow: #1e293b;
+    border: none;
+    border-style: solid;
+}
+
+.hobby:hover{    transform: translate(3px);
+    background-color: #0f172a;
+    box-shadow: #1e293b;
+    border: none;
+    border-style: solid;
+}
+
+.webs:hover{
+        transform: translate(3px);
+    background-color: #0f172a;
+    box-shadow: #1e293b;
+    border: none;
+    border-style: solid;
+}
+
+
+.occupation:hover{
+        transform: translate(3px);
+    background-color: #0f172a;
+    box-shadow: #1e293b;
+    border: none;
+    border-style: solid;
+}
+
+.gold{
+    color: gold;
+    padding: 7px 20px;
+        border-left-style: solid;
+    border-right-style: solid;
+}
+
+.line-1{
+   color: goldenrod;
+  
+    border-bottom-style: solid;
+    width: 500px;
+}
+
+
+.line-2{
+   color: goldenrod;
+  
+    border-bottom-style: solid;
+    width:100vw;
+}
+
+
+
+
+      #snow-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .snowflake {
+            position: absolute;
+            background: dodgerblue;
+            border-radius: 50%;
+            opacity: 0.6;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-10vh);
+            }
+
+            100% {
+                transform: translateY(110vh);
+            }
+        }
+
+
+.parent-2{
+    border: 4px solid black;
+    margin-top: 100px;
+    height: 100px;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    
+}
+
+.me-div{
+        height: 100px;
+    width:100vw;
+    background: #0b1f3a;
+    border: 1px solid #38bdf8;
+    color: #e0f2fe;
+    margin-bottom: 50px;
+}
+
+
+.about-me{
+    margin-top: 0px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+
+.hi-myname{
+    margin-top: 0px;
+    font-family: monospace;
+    font-size: large;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.football{
+    margin-top: 0px;
+    font-family: monospace;
+    font-size: large;
+    margin-left: 10px;
+
+}
+
+.languages{
+    height: 100px;
+    width:100vw;
+    border: 5px solid red;
+    background: #2a0f14;
+border: 1px solid #f87171;
+color: #fecaca;
+margin-bottom: 50px;
+}
+
+
+.learned-sofar{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: monospace;
+   
+    font-weight: bold;
+}
+
+
+.webs-made{
+    
+    background: #1a1033;
+border: 1px solid #a78bfa;
+color: #ddd6fe;
+margin-bottom: 50px;
+
+}
+
+
+.cap{
+    margin-left: 10px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.as-ofrn{
+    margin-left: 10px;
+}
+
+
+.h-1web{
+    margin-top:0px;
+    margin-bottom: 5px;
+}
+
+.p-1{
+    margin-top: 0px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+   margin-left: 10px;
+   margin-bottom: 5px;
+}
+.p-2{
+    
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 0px;
+   font-size:large;
+}
+
+.hobby-div{
+    background: rgba(15, 23, 42, 0.6);
+border: 1px solid rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+color: #e5e7eb;
+margin-bottom: 50px;
+}
+
+.chess-anim{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 0px;
+    margin-left:10px;
+
+}
+
+.liketocode{
+      font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 0px;
+    margin-left:10px;
+}
+
+
+.occupation-div{
+    margin-top:0px;
+    border: 1px solid #090d18;
+   background: linear-gradient(#A78BFA , #4ADE80);
+   color: #E2E8F0;
+
+}
+
+.iam{
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold
+}

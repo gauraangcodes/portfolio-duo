@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>raangs-portfolio</title>
+    <link rel="stylesheet" href="../css/raang.css">
+</head>
+<body>
+ <div id="snow-container"></div>
+
+    <nav class="nav">
+    <div class="nav-bar">
+        <div class="gold">
+        <a href="#myself">
+            <button class="abt-me"> 
+                  about me
+            </button>
+        </a>
+        <a href="#languagesL">
+           <button class="lang"> languages learned</button>
+        </a>
+        <a href="#websites-made">
+         <button class="webs">  websites made</button> 
+        </a>
+        <A href="#hobby-id">
+          <button class="hobby"> hobbies</button> 
+        </A>
+        <a id="#occupation-id">
+          <button class="occupation">occupation</button>  
+        </a>
+        </div>
+    </div>
+
+    </nav>
+
+    <div class="parent">
+
+<div class="raang">
+
+    <Img onclick="raangpfp()" class="inzhaghi" src="https://i.pinimg.com/1200x/ef/8b/82/ef8b820c3630449aab535d9766d13fae.jpg">
+     
+
+</div>
+
+   <p class="myname" onclick="gauraang()"> Gauraang</p>
+
+<div class="line-1"></div>
+
+   <button class="go-back" onclick="gotoindex()"> Go back</button>
+
+<div class="line-2"></div>
+
+    </div>
+
+    <div class="parent-2">
+        <div id="myself" class="me-div">
+            <h1 class="about-me">
+                About me
+            </h1>
+            <p class="hi-myname">
+                hi my name is Gauraang i like to code i have been coding since 1 month
+            </p>
+            <P class="football">
+                Iam also a huge football fan i have played 10 tournaments and won 6 of them as the goalkeeper
+            </P>
+        </div>
+
+        <div id="languagesL" class="languages">
+            <h1 class="learned-sofar">
+                languages learned so far..
+            </h1>
+            <p class="cap">
+                 i have learned html and css and a liltle of python
+            </p>
+            <P class="as-ofrn">
+                and as of right now iam learning js(java script)
+            </P>
+                
+        </div>
+
+        <div id="websites-made" class="webs-made">
+            <h1 class="h-1web">
+                websites made
+            </h1>
+            <P class="p-1">
+                i have made 3 websites so far 
+            </P>
+            <P class="p-2">
+                and i have made a linkedin clone
+            </P>
+        </div>
+
+        <div id="hobby-id" class="hobby-div">
+            <h1 class="hobbies-ilike">Hobbies</h1>
+           <P class="chess-anim"> i like to play chess and a bit of animations and games</P>
+           <P class="liketocode ">and ofcourse i like to code </P>
+        </div>
+
+        <div id="occupation-id" class="occupation-div">
+            <h1  class="occupation-h1">
+                Occupation
+            </h1>
+            <p class="iam">
+                Iam still in school and i learn in 9th grade
+            </p>
+            <p class="iam">
+                as of right now iam planning to be a soft-ware engineer
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        function gotoindex(){
+            window.location.href="index.html"
+        }
+
+        
+    </script>
+
+    <script>
+        function raangpfp(){
+            window.location.href="index.html"
+        }
+    </script>
+
+    <script>
+        function gauraang(){
+            window.location.href="contact.html"
+        }
+    </script>
+
+      <script>
+        const snowContainer = document.getElementById('snow-container');
+        const count = window.innerWidth < 768 ? 35 : 70; // Fewer snowflakes on mobile for performance
+
+        for (let i = 0; i < count; i++) {
+            const snow = document.createElement('div');
+            snow.className = 'snowflake';
+            const size = (Math.random() * 3 + 2) + 'px';
+            snow.style.width = size;
+            snow.style.height = size;
+            snow.style.left = (Math.random() * 100) + 'vw';
+            snow.style.animationDuration = (Math.random() * 3 + 4) + 's';
+            snow.style.animationDelay = (Math.random() * 5) + 's';
+            snowContainer.appendChild(snow);
+        }
+    </script>
+</body>
+</html>
